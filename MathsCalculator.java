@@ -47,8 +47,8 @@ public class MathsCalculator {
                     System.out.println("**Error** Cannot divide by zero.");
                 } 
                 break;
-            Default:
-               System.out.println("**Error** Invalid input. please enter A,S,M,D );
+            default:
+               System.out.println("**Error** Invalid input. please enter A,S,M,D");
                 break;
         }  
 kbd.close();
