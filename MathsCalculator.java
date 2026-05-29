@@ -45,8 +45,12 @@ public class MathsCalculator {
                      System.out.println( num1 + " divide " + num2 + " is " + ((double) num1 / num2));
                 } else{
                     System.out.println("**Error** Cannot divide by zero.");
-                }
-   kbd.close();        
-        }        
+                } 
+                break;
+            Default:
+               System.out.println("**Error** Invalid input. please enter A,S,M,D );
+                break;
+        }  
+kbd.close();
     }
 }
